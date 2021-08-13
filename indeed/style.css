@@ -1,0 +1,371 @@
+
+body{
+    display: flex;
+    margin: 0;
+    font-family: "Noto Sans","Helvetica Neue","Helvetica","Arial","Liberation Sans","Roboto","Noto",sans-serif;
+    flex-direction: column;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 1px -1px #d4d4d4;
+    margin-bottom: 2px;
+}
+.left-side{
+    display: flex;
+    height: inherit;
+    width: 35%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.left-side div span{
+    font-size: .9rem;
+}
+.right-side{
+    display: flex;
+    height: inherit;
+    width: 30%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.mainlogo{
+    width: 5rem;
+    height: 3rem;
+    margin-left: .7rem;
+}
+.item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.item:hover{
+    border-bottom: rgb(60, 33, 180) solid 2px;
+}
+.item span{
+    color: #2d2d2d;
+}
+
+
+.mess{
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+.notif{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.bandem{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.litem{
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+    cursor: pointer;
+}
+.litem:hover{
+    border-bottom: rgb(60, 33, 180) solid 2px;
+}
+.pipe{
+    border-left: solid  #2d2d2d 1px;
+    height: 1.2rem;
+}
+.text{
+    color: #2d2d2d;
+    font-size: .9rem;
+}
+.litemzz{
+    margin-right: 1rem;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.litemzz:hover{
+    border-bottom: rgb(60, 33, 180) solid 2px;
+
+}
+ 
+.main{
+    
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.topbody{
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    width: 81%;
+}
+.container{
+    width: inherit;
+    height: 10rem;
+    margin-top: 3rem;
+}
+.container h1{
+    margin-bottom: .5rem;
+    font-size: 2.75rem;
+    line-height: 1.25;
+    letter-spacing: -.0625rem;
+    color: #2d2d2d;
+    font-weight: 900;
+}
+.container span{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #595959;
+    font-weight: 400;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.inputtext{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+.inputtext span{
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+    color: #2d2d2d;
+    font-weight: bold;
+    
+}
+.inputtext input{
+    margin-top: .5rem;
+    width: 20rem;
+    height: 2.2rem;
+    border-radius: 6px;
+    border: 1px rgb(160, 160, 160) solid;
+    background-image: url(loop.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 7%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+    
+    
+}
+.inputtext input:hover{
+    border:solid blue 1px;
+    
+}
+.inputtext input:focus{
+    
+    border-bottom: blue solid 4px;
+    outline: none;
+
+}
+.inputcity{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 1.5rem;
+
+}
+.inputcity span{
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+    color: #2d2d2d;
+    font-weight: bold;
+    
+}
+.inputcity input{
+    margin-top: .5rem;
+    width: 20rem;
+    height: 2.2rem;
+    border-radius: 6px;
+    border: 1px rgb(160, 160, 160) solid;
+    background-image: url(pin.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 7%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+}
+.inputcity input:hover{
+    border:solid blue 1px;
+    
+}
+.inputcity input:focus{
+    
+    border-bottom: blue solid 4px;
+    outline: none;
+
+}
+.button{
+    align-self: flex-end;
+    display: flex;
+    width: 20rem;
+    height: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px #2557a7;
+    border-radius: 6px;
+    background-color: #2557a7;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #1a3c72;
+}
+.link{
+    margin-top: 1.7rem;
+}
+.popularcompanies{
+    margin-top: 1.6rem;
+    margin-bottom: 0rem;
+    color: #2d2d2d;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap ;
+    width: 100%;
+
+}
+.itemlist{
+    
+    display: flex;
+    height: 6rem;
+    width: 22rem;
+    background-color: transparent;
+    align-items: center;
+
+    flex-direction: row;
+    font-family: "Noto Sans","Helvetica Neue","Helvetica","Arial","Liberation Sans","Roboto","Noto",sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+    min-width: 0;
+    padding: 1.5rem;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 3rem;
+    height: 3rem;  
+    cursor: pointer; 
+    margin-bottom: 1.5rem;
+
+}
+.info{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 1rem;
+    cursor: pointer;
+    align-content: space-around;
+
+}
+.sheesh{
+    margin-left: .4rem;
+    font-weight: bold;
+    color: #2d2d2d;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.rating img{ 
+    height: 1.5rem;
+    width: 6rem;
+
+}
+.rating span{
+    color:rgb(140, 0, 255) ;
+    font-size: .8rem;
+    align-self: flex-end;
+    padding-left: .2em;
+    
+}
+.rating span:hover{
+    text-decoration: underline;
+}
+.info span:hover{
+    text-decoration: underline #2d2d2d;
+}
+.links{
+    margin-top: 1rem;
+}
+.links span{
+    color: rgb(105, 105, 105);
+    margin: .4rem;
+    font-size: .9rem;
+}
+.footer{
+    width: 100%;
+    height: 3.5rem;
+    background-color: #f5fbf9;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.footer span{
+    align-self:center;
+    margin-right: .2rem;
+    margin-left: 1.5rem;
+    font-weight: 800;
+    color: #2d2d2d;
+}
+
+.Shooter{
+    background-color: transparent;
+    width: inherit;
+    height: 10rem;
+    font-size: .8em;
+    display:block;
+    justify-content: left;
+    margin-bottom: 1rem;
+    color: #2d2d2d;
+    margin-left: 1rem;
+    
+}
+
+.partone{
+    margin-top: 4rem;
+
+}
+.parttwo{
+    margin-top: 3rem; 
+}
+
+.dot:hover{
+    text-decoration: underline;
+}
+.dot{
+    cursor: pointer;
+}
